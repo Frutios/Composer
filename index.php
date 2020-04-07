@@ -1,8 +1,8 @@
 <?php
 
-  $loader = require __DIR__ . '../vendor/autoload.php';
-  $loader->addPsr4('App\\Test\\', __DIR__);
+require '../vendor/autoload.php';
+use App\Wcs\Hello;
 
-  $helloWorld = new Hello();
+$helloWorld = new Hello();
 
-  echo $helloWorld;
+echo $helloWorld->talk();
