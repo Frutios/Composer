@@ -1,0 +1,20 @@
+
+{
+	
+    "name": "benjamin2/composer-quest",
+    "description": "projet quete composer",
+    "authors": [
+        {
+            "name": "Frutios",
+            "email": "benjamin.tourneur7@gmail.com"
+	   
+        }
+    ],
+	"autoload":{
+    		"psr-4": {
+			"App\\":"src/"
+	   }
+	},
+    "require": {}
+
+}
